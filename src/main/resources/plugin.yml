@@ -1,0 +1,100 @@
+name: Jupiter
+main: ca.tweetzy.jupiter.Jupiter
+version: maven-version-number
+api-version: 1.16
+description: Default Description
+authors: [Kiran Hart, Matt W]
+
+commands:
+  heal:
+    description: Heal yourself or other players
+    usage: /heal
+  tpall:
+    description: Teleport all players to your current location
+    usage: /tpall
+  tp:
+    description: Teleport to a specific player
+    usage: /tp
+  voidteleport:
+    description: Main command for the void teleport module
+    aliases: [voidtp]
+    usage: /voidteleport
+  time:
+    description: Set the time of day
+    usage: /time
+  spawner:
+    description: Main command for the spawner module
+    usage: /spawner
+  chat:
+    description: Main command for the chat management module
+    usage: /chat
+
+
+permissions:
+  jupiter.*:
+    description: Allows access to all sub permissions
+    children:
+      jupiter.cmd.heal: true
+      jupiter.cmd.tpall: true
+      jupiter.cmd.tp: true
+      jupiter.cmd.tp.other: true
+      jupiter.cmd.time: true
+      jupiter.cmd.voidteleport: true
+      jupiter.cmd.voidteleport.setmode: true
+      jupiter.cmd.voidteleport.setspawn: true
+      jupiter.cmd.voidteleport.toggle: true
+      jupiter.cmd.spawner: true
+      jupiter.cmd.spawner.list: true
+      jupiter.cmd.spawner.give: true
+      jupiter.cmd.spawner.set: true
+      jupiter.cmd.chat.clear: true
+      jupiter.cmd.chat.toggle: true
+      jupiter.cmd.chat.bypass: true
+  jupiter.cmd.heal:
+    description: Allows access to the heal command
+    default: op
+  jupiter.cmd.tpall:
+    description: Allows access to the tp all command
+    default: op
+  jupiter.cmd.tp:
+    description: Allows access to the tp command
+    default: op
+  jupiter.cmd.tp.other:
+    description: Allows access to the tp player to player command
+    default: op
+  jupiter.cmd.time:
+    description: Allows the player to set the time
+    default: op
+  jupiter.cmd.voidteleport:
+    description: Allows access to void teleport command
+    default: op
+  jupiter.cmd.voidteleport.setmode:
+    description: Allows access to setmode for the void teleport command
+    default: op
+  jupiter.cmd.voidteleport.setspawn:
+    description: Allows access to setspawn for the void teleport command
+    default: op
+  jupiter.cmd.voidteleport.toggle:
+    description: Allows access to the toggle void teleport command
+    default: op
+  jupiter.cmd.spawner:
+    description: Allows acccess to the spawner command
+    default: op
+  jupiter.cmd.spawner.list:
+    description: Allows acccess to the spawner list command
+    default: op
+  jupiter.cmd.spawner.give:
+    description: Allows access to the spawner give command
+    default: op
+  jupiter.cmd.spawner.set:
+    description: Allows access to the spawner set command
+    default: op
+  jupiter.cmd.chat.clear:
+    description: Allows acccess to the chat clear command
+    default: op
+  jupiter.cmd.chat.toggle:
+    description: Allows acccess to the chat toggle command
+    default: op
+  jupiter.cmd.chat.bypass:
+    description: Allows access to bypass the chat clear/toggle
+    default: op

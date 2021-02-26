@@ -1,0 +1,56 @@
+general:
+    prefix: "&8[&6Jupiter&8]"
+    air: "&cSorry, but you cannot sell air o.O"
+    notanumber: "&cThe entry &4%value% &cis not a valid number!"
+    nopermission: "&cYou do not have permission to do that!"
+    playeronly: "&cOnly players are allowed to use that command!"
+    playeroffline: "&cThe following player &4%player% &ccould not be found!"
+
+void_teleport:
+    set_spawn: "&aYou set void respawn location for &2%world_name%"
+    set_mode: "&aYou set the void mode to &2%void_type% &afor &2%world_name%"
+    toggle_on: "&aYou enabled void teleportation for &2%world_name%"
+    toggle_off: "&aYou disabled void teleportation for &2%world_name%"
+    invalid_mode: "&cThat void mode does not exist!"
+    invalid_world: "&cNo world by the name &4%world_name% &ccould be found!"
+    void_chat_message: "&aYou have been successfully teleported!"
+    void_actionbar_message: "&aYou have been successfully teleported!"
+
+anti_crop_trample:
+    chat_message: "&cYou cannot trample crops!"
+    actionbar_message: "&cYou cannot trample crops!"
+
+spawners:
+    not_allowed_place: "&cYou don't have permission to place &4%mob_type% &cspawners!"
+    not_allowed_mine: "&cYou don't have permission to mine &4%mob_type% &cspawners!"
+    placed_spawner: "&aYou successfully placed a &2%mob_type% &aspawner!"
+    mined_spawner: "&aYou successfully broke a &2%mob_type% &aspawner!"
+    not_a_spawner: "&cThe block you're looking at is not a spawner!"
+    changed_spawner_mob: "&aConverted &2%spawner_type% &ato a &2%mob_type% &aspawner!"
+    invalid_mob_type: "&cCould not find any mobs with the name: &4%mob_type%"
+    invalid_mine_tool: "&cYou're not allowed to break spawners with that tool"
+    give_spawner: "&aYou gave &2%player% &fx&2%amount% &6%mob_type% &aspawner(s)"
+    receive_spawner: "&aYou received &fx&2%amount% &6%mob_type% &aspawner(s)"
+
+chat_management:
+  chat_cleared: "&cChat has been cleared"
+  chat_cleared_reason: "&cChat has been cleared because: &4%reason%"
+  chat_cleared_self: "&aYou have cleared the chat!"
+  chat_toggled: "&aChat has been toggled: &2%value%"
+  cannot_talk: "&cYou cannot speak while the chat is toggled off!"
+  actionbar_cannot_talk: "&cYou cannot speak while the chat is toggled off!"
+
+heal:
+    self: "&aYou have been healed"
+    other: "&aYou healed &f%player%"
+
+time:
+    timeset: "&aYou have set the time in this world to: &2%value%"
+    invalid_world: "&cNo world by the name &4%world_name% &ccould be found!"
+
+teleportall:
+    self: "&aTeleporting all players to your location!"
+    other: "&aTeleporting all players to &2%player%"
+    others: "&aYou're being teleported to &2%player%"
+
+teleport: "&aYou're being teleported to &2%player%"
