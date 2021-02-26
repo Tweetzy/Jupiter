@@ -1,5 +1,5 @@
 #      Jupiter
-[![Jupiter Build](https://github.com/kiranhart/Jupiter/actions/workflows/maven.yml/badge.svg)](https://github.com/kiranhart/Jupiter/actions/workflows/maven.yml) [![](https://jitpack.io/v/kiranhart/Jupiter.svg)](https://jitpack.io/#kiranhart/Jupiter)
+[![Jupiter Build](https://github.com/kiranhart/Jupiter/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/kiranhart/Jupiter/actions/workflows/maven.yml) [![](https://jitpack.io/v/kiranhart/Jupiter.svg)](https://jitpack.io/#kiranhart/Jupiter)
 
 Jupiter is an all-in-one server core, it's an attempt to reduce the need of downloading a variety of plugins to reach a goal. Jupiter is bundled with many features that most servers are looking for. 
 
