@@ -22,9 +22,7 @@ import ca.tweetzy.jupiter.listeners.*;
 import ca.tweetzy.jupiter.settings.Settings;
 import org.bukkit.Bukkit;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * The current file has been created by Kiran Hart
